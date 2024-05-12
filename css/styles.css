@@ -167,6 +167,7 @@ body {
 .footer {
 	background: #2F303A;
 	padding: 60px 0;
+	margin-top: 94px;
 }
 
 .footer-container {
@@ -248,11 +249,91 @@ body {
 }
 
 .people-cards>article{
-	padding: 15px;
+	flex: 1 1 20%;
+	gap: 30px;
 }
 
 .people-cards>article>div {
 	color: #757575;
 	font-weight: 400;
 	font-size: 16px;
+}
+
+/* portfolio */
+
+.portfolio {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 28px;
+	
+}
+
+.container-portfolio>div{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex: 1 1 20%;
+	gap: 8px;
+	flex-direction: row;
+	text-align: center;
+}
+
+.container-portfolio h3 {
+	padding: 6px 25px;
+	font-weight: 500;
+	font-size: 16px;
+
+}
+
+.cards>article {
+	gap: 30px;
+}
+
+.card-img {
+	display: block;
+	position: relative;
+}
+
+.card-img:hover .text  {
+	display: flex;
+}
+
+.text {
+	position: absolute;
+	color: black;
+	display: flex;
+	padding: 63px 24px;
+	-ms-flex-align: center;
+
+	color: #fff;
+	background-color: rgba(33,	150, 243, 0.8);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	display: none;
+}
+
+.cards {
+	margin-top: 30px;
+	display: flex;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+.cards h3 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.cards p {
+	line-height: 30px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #757575;
+	margin-bottom: 5px;
+}
+
+.card-name {
 }
